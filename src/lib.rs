@@ -4,6 +4,9 @@
 //! Real implementation: audits, events, validation, deterministic storage.
 //! Replaces the placeholder stub.
 
+/// Security audit and compliance module.
+pub mod sigmasecurityaudit;
+
 use std::collections::BTreeMap;
 use std::fmt;
 

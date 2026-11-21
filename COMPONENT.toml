@@ -7,7 +7,7 @@ description = "Security audit component for SigmaOS"
 upstream = []
 
 [contract]
-provides = ["component"]
+provides = ["sigmasecurityaudit"]
 depends_on = ["SigmaOS-system"]
 
 [maturity]
